@@ -764,7 +764,7 @@ def main():
 
         if uploaded:
             image = Image.open(uploaded)
-            st.image(image, caption="Image chargée", width="stretch")
+            st.image(image, caption="Image chargée", use_container_width=True)
         else:
             st.markdown(
                 '<div class="upload-placeholder"><div class="upload-icon">🌿</div>'
@@ -793,7 +793,7 @@ def main():
         if uploaded and model:
             image = Image.open(uploaded)
 
-            if st.button("🔬 Analyser la maladie", width="stretch", type="primary"):
+            if st.button("🔬 Analyser la maladie", use_container_width=True, type="primary"):
                 with st.spinner(""):
                     st.markdown(
                         '<div class="analyzing-box"><div class="pulse-dot"></div>'
