@@ -2,5 +2,5 @@ streamlit==1.58.0
 tensorflow==2.15.1
 keras==2.15.0
 numpy==1.26.4
-pillow
-gtts
+pillow==10.4.0
+gtts==2.5.4
