@@ -103,32 +103,33 @@ The model was trained on the **PlantVillage dataset** containing multiple plant 
 
 
 
+```text
 Mon_App_Plantes
 │
 ├── app.py
-│ └── Main Streamlit application
+│   └── Main Streamlit application
 │
 ├── MODELE_FINAL_96percent.keras
-│ └── Trained Deep Learning model
+│   └── Trained Deep Learning model
 │
 ├── requirements.txt
-│ └── Required Python libraries
+│   └── Required Python libraries
 │
 ├── runtime.txt
-│ └── Python runtime configuration
+│   └── Python runtime configuration
 │
 ├── examples/
-│ └── Example plant images for testing
+│   └── Example plant images for testing
 │
 ├── fsbm.png
-│ └── Project image/logo
+│   └── Project image/logo
 │
 ├── result.mp3
-│ └── Audio output file
+│   └── Audio output file
 │
 └── README.md
-└── Project documentation
-
+    └── Project documentation
+```
 
 # 🎯 Project Objectives
 
